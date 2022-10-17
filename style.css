@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: inter, sans-serif;
+}
+
+body {
+    background-color: #23252C;
+}
+
+.card {
+    width: 317px;
+    margin: auto;
+    background-color: #1A1B21;
+}
+
+img {
+    width: 317px;
+    height: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.role {
+    color: #F3BF99;
+    margin: 7px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.info {
+    margin-left: 8px;
+    padding: 10px
+}
+
+.emailbtn {
+    color: black;
+    background-color: white;
+    padding: 13px;
+}
+
+.linkdn {
+    background-color: #5093E2;
+    padding: 13px;
+}
+
+button {
+    border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #161619;
+    padding: 10px;
+}
+
+.footer > button {
+    background-color: #918E9B;
+    padding: 3px;
+    margin: 7px 0;
+}
